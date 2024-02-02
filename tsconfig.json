@@ -19,6 +19,9 @@
       "@controllers/*": ["./src/controllers/*"],
       "@config/*": ["./src/config/*"],
       "@utils/*": ["./src/utils/*"],
+      // Jest configuration
+      "@App/*": ["src/*"],
+      "lib/*": ["common/*"]
     },
     "typeRoots": ["./node_modules/@types"]
   },

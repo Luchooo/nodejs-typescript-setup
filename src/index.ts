@@ -1,5 +1,7 @@
 import { print } from '@config/logger'
 import { emojisrouter } from '@routes/index.routes'
+// import { print } from './config/logger'
+// import { emojisrouter } from './routes/index.routes'
 import express from 'express'
 import morgan from 'morgan'
 
@@ -22,3 +24,5 @@ const PORT = process.env.PORT != null || 3000
 app.listen(PORT, () => {
   print.info(`Server running on: http://localhost:${PORT}`)
 })
+
+export default app
