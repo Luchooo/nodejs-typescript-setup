@@ -10,6 +10,6 @@ export const print = createLogger({
       if (level.includes('info')) emoji = '🔊'
       if (level.includes('warn')) emoji = '⚠️ '
       return `${emoji} ${level}: ${message}`
-    }),
-  ),
+    })
+  )
 })
